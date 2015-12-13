@@ -1,0 +1,248 @@
+
+@import 'fontface.css';
+
+
+/*div:hover {
+    color: red;
+}
+
+/* CURRENTLY IN: styles/main.css */
+
+.font {
+    font-family: "freight-sans-pro";
+    color: #5c3d2e;
+
+}
+
+.background {
+    background-color: #f2f1e9;
+}
+
+
+.fullscreen__image--container {
+    width: 1024px;
+    /*border: 1px solid black; */
+    margin: 0 auto;
+    position: relative;
+
+    /*background-color: #f2f1e9 */
+
+}
+
+.fullscreen__image--building {
+    width: 100%;
+    /*border: 1px solid black; */
+}
+
+.textbox--no1 {
+ width: 400px;
+    height: 100px;
+    /*border: 1px solid blue;*/
+    box-sizing: border-box;
+    position: absolute;
+    top: 92%;
+    left: 400px; 
+    padding: 10px;
+    font-size: 30px
+
+}
+
+.textbox--no1A {
+ width: 700px;
+    height: 100px;
+    /*border: 1px solid blue;*/
+    box-sizing: border-box;
+    position: absolute;
+    top: 82%;
+    left: 260px; 
+    padding: 10px;
+    font-size: 30px
+
+}
+
+.textbox--no2 {
+ width: 400px;
+    height: 100px;
+    /*border: 1px solid blue;*/
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 440px; 
+    padding: 10px;
+    font-size: 30px
+
+}
+
+.textbox--no3 {
+ width: 400px;
+    height: 100px;
+    /*border: 1px solid blue;*/
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    left: 800px; 
+    padding: 10px;
+    font-size: 25px
+
+}
+
+
+
+.textbox {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    position: absolute;
+    top: 60%;
+    left: 150px; 
+    padding: 10px;
+
+
+}
+
+.textbox--2 {
+    width: 300px;
+    height: 100px;
+    /*border: 1px solid blue;*/
+    box-sizing: border-box;
+    position: absolute;
+    top: 65%;
+    left: 10px; 
+    padding: 10px;
+    font-size: 25px;
+}
+
+.textbox--3 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    position: absolute;
+    top: 220%;
+    left: 60px; 
+    padding: 10px;
+}
+
+.textbox--bottom {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    left: 60px; 
+    padding: 10px;
+}
+
+.textbox__topMessage {
+    width: 500px;
+    height: 200px;
+    /*border: 1px solid blue;*/
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    top: 200px;
+    left: 275px; 
+    padding: 30px;
+    font-size: 80px; 
+}
+
+.textbox__scrollToBottom {
+    width: 275px;
+    height: 50px;
+    border: 1px solid blue;
+    text-align: justify;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    left: 400px; 
+    padding: 30px, 30px, 30px, 30px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.gifContainer1 {
+    width: 100%;
+    position: absolute;
+
+}
+
+
+.gif-show  {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    height: 200px;
+}
+
+.gif-show--elf  {
+    
+    left: 275.7px;
+    bottom: -1120.5px;
+    background-image: url('https://dl.dropboxusercontent.com./s/li9kmkc6uzrcunw/giftest3.gif?dl=0');
+
+}
+.gif-show--doll{
+    left: 275.7px;
+    bottom: -1120.5px;
+    background-image: url('https://dl.dropboxusercontent.com./s/li9kmkc6uzrcunw/giftest3.gif?dl=0');
+
+}
+
+
+
+/*  OLD STUFF
+
+
+.fullscreen {
+    width: 100%;
+    position: relative;
+}
+
+.fullscreen__image {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.textbox {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    position: relative;
+    top: 20%;
+    left: ;
+    padding: 10px;
+}
+
+.fullscreen__item {
+    position: absolute;
+    top: 12%;
+    left: 37%;
+    
+}
+
+.textbox {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    left: ; 
+    padding: 10px;
+}
+
+.textbox--2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    position: absolute;
+    top: 40%;
+    right: 0% ;
+    padding: 10px;
+}
+
+*/

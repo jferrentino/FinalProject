@@ -16,7 +16,9 @@ img.onload = function() {
     // jump to bottom
     window.scrollTo(0,document.body.scrollHeight);
 }
+
 img.src = "https://dl.dropboxusercontent.com./s/s5pt5ufz4roeoxa/IMAGETEST.png?dl=0";
+// img.src = "https://dl.dropboxusercontent.com./s/s5pt5ufz4roeoxa/IMAGETEST.png?dl=0";
 
 
 $('.myLinkToBot').click(function () {
@@ -35,7 +37,7 @@ $('.myMenuLink').click(function () {
 
 $('.gif-show--elf').on({
     mouseenter: function () {
-        
+
         // $(this).css({background-color: black});
          $(this).css("opacity", "1");
 

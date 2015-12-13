@@ -16,6 +16,7 @@
 
 .background {
     background-color: #f2f1e9;
+    overflow-x: hidden;
 }
 
 
@@ -32,6 +33,7 @@
 .fullscreen__image--building {
     width: 100%;
     /*border: 1px solid black; */
+    background-image: url("https://dl.dropboxusercontent.com./s/8eafwqbw0ku5fcx/ImgFix1B.png?dl=0") no-repeat center center fixed;
 }
 
 .textbox--no1 {

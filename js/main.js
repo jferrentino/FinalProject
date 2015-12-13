@@ -33,17 +33,20 @@ $('.myMenuLink').click(function () {
     return false;
 });
 
-$('.gif-show').on({
+$('.gif-show--elf').on({
     mouseenter: function () {
+        
         // $(this).css({background-color: black});
-        $(this).css("opacity", "1");
+         $(this).css("opacity", "1");
 
     },
 
     mouseleave: function () {
-        $(this).css("opacity", "0");
+         $(this).css("opacity", "0");
     }
 })
+
+
 
 $('.textbox--no1A').on({
     mouseenter: function () {

@@ -169,19 +169,32 @@
 }
 
 
-.gif-show  {
-    position: absolute;
-    width: 100%;
-    opacity: 0;
-    height: 200px;
-}
 
+/*First attempt .gif-show  {
+    position: absolute;
+    opacity: 0;
+    border: 2px solid blue;
+    height: 200px;
+}  */
+
+.gif-show--elf  {
+    position: absolute;
+    left: 277.7px;
+    top: 3930px;
+    /*background-image: url('');*/
+    /*border: 2px solid red;*/
+    opacity: 0;
+    z-index: 5;
+    
+}
+/*try 1 not scaled properly
 .gif-show--elf  {
     
     left: 275.7px;
     bottom: -1120.5px;
     background-image: url('https://dl.dropboxusercontent.com./s/li9kmkc6uzrcunw/giftest3.gif?dl=0');
 
+*/
 }
 .gif-show--doll{
     left: 275.7px;

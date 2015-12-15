@@ -1,11 +1,9 @@
-
 @import 'fontface.css';
 
 
 /*div:hover {
     color: red;
 }
-
 /* CURRENTLY IN: styles/main.css */
 
 .font {
@@ -179,6 +177,8 @@
     height: 200px;
 }  */
 
+
+
 .gif-show--elf  {
     position: absolute;
     left: 277.7px;
@@ -189,37 +189,39 @@
     z-index: 5;
     
 }
+
+.gif-show--girlHat  {
+    position: absolute;
+    left: 265.4px;
+    top: 3294px;
+    opacity: 1;
+    z-index: 5;
+    
+}
+
 /*try 1 not scaled properly
 .gif-show--elf  {
     
     left: 275.7px;
     bottom: -1120.5px;
     background-image: url('https://dl.dropboxusercontent.com./s/li9kmkc6uzrcunw/giftest3.gif?dl=0');
-
 */
-}
-.gif-show--doll{
-    left: 275.7px;
-    bottom: -1120.5px;
-    background-image: url('https://dl.dropboxusercontent.com./s/li9kmkc6uzrcunw/giftest3.gif?dl=0');
 
-}
+
+
+
 
 
 
 /*  OLD STUFF
-
-
 .fullscreen {
     width: 100%;
     position: relative;
 }
-
 .fullscreen__image {
     width: 100%;
     border: 1px solid black;
 }
-
 .textbox {
     width: 100px;
     height: 100px;
@@ -230,14 +232,12 @@
     left: ;
     padding: 10px;
 }
-
 .fullscreen__item {
     position: absolute;
     top: 12%;
     left: 37%;
     
 }
-
 .textbox {
     width: 100px;
     height: 100px;
@@ -248,7 +248,6 @@
     left: ; 
     padding: 10px;
 }
-
 .textbox--2 {
     width: 100px;
     height: 100px;
@@ -259,5 +258,4 @@
     right: 0% ;
     padding: 10px;
 }
-
 */

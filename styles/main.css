@@ -199,6 +199,16 @@
     
 }
 
+.gif-show--manDrawing  {
+    position: absolute;
+    left: 392.4px;
+    top: 2937px;
+    opacity: 1;
+    z-index: 5;
+    
+
+}
+
 /*try 1 not scaled properly
 .gif-show--elf  {
     

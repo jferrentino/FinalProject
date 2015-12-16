@@ -6,23 +6,27 @@
 }
 /* CURRENTLY IN: styles/main.css */
 
-.font {
-    font-family: "freight-sans-pro";
-    color: #5c3d2e;
+.plainBottom {
+    text-decoration: none;
 
 }
 
 .background {
     background-color: #f2f1e9;
     overflow-x: hidden;
+    position: relative;
+    font-family: "freight-sans-pro";
+    color: #5c3d2e;    
 }
 
-
 .fullscreen__image--container {
-    width: 1024px;
     /*border: 1px solid black; */
     margin: 0 auto;
     position: relative;
+    background: url('../assets/FinalImageResized.png') no-repeat;
+    margin: 0 auto;
+    width: 1024px;
+    height: 4446px;
 
     /*background-color: #f2f1e9 */
 
@@ -34,10 +38,10 @@
     background-image: url("https://dl.dropboxusercontent.com./s/8eafwqbw0ku5fcx/ImgFix1B.png?dl=0") no-repeat center center fixed;
 }
 
-.textbox--no1 {
+/*.textbox--no1 {
  width: 400px;
     height: 100px;
-    /*border: 1px solid blue;*/
+    border: 1px solid blue;
     box-sizing: border-box;
     position: absolute;
     top: 92%;
@@ -46,17 +50,18 @@
     font-size: 30px
 
 }
+*/
 
 .textbox--no1A {
- width: 700px;
+    width: 100%;
     height: 100px;
     /*border: 1px solid blue;*/
     box-sizing: border-box;
     position: absolute;
     top: 82%;
-    left: 260px; 
     padding: 10px;
-    font-size: 30px
+    font-size: 30px;
+    text-align: center;
 
 }
 
@@ -102,21 +107,34 @@
 }
 
 .textbox--2 {
+    width: 200px;
+    height: 80px;
+    border: 5px #f2cc00;
+    background-color: white;
+    position: absolute;
+    top: 65%;
+    left: 10px; 
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+/*.textbox--2 {
     width: 300px;
     height: 100px;
-    /*border: 1px solid blue;*/
     box-sizing: border-box;
     position: absolute;
     top: 65%;
     left: 10px; 
     padding: 10px;
     font-size: 25px;
-}
+} */
 
 .textbox--3 {
     width: 100px;
     height: 100px;
     border: 1px solid blue;
+    font-size: 10px;
     box-sizing: border-box;
     position: absolute;
     top: 220%;
@@ -152,10 +170,9 @@
     width: 275px;
     height: 50px;
     border: 1px solid blue;
-    text-align: justify;
     box-sizing: border-box;
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 400px; 
     padding: 30px, 30px, 30px, 30px;
     text-align: justify;
@@ -209,63 +226,17 @@
 
 }
 
-/*try 1 not scaled properly
-.gif-show--elf  {
-    
-    left: 275.7px;
-    bottom: -1120.5px;
-    background-image: url('https://dl.dropboxusercontent.com./s/li9kmkc6uzrcunw/giftest3.gif?dl=0');
-*/
+.mobile__image--container {
+    display: none;
 
-
-
-
-
-
-
-/*  OLD STUFF
-.fullscreen {
-    width: 100%;
-    position: relative;
 }
-.fullscreen__image {
-    width: 100%;
-    border: 1px solid black;
+
+@media screen and (max-width: 736px) {
+    .fullscreen__image--container {
+     display: none
+    }
+
+    .mobile__image--container {
+        display: block;
+    }
 }
-.textbox {
-    width: 100px;
-    height: 100px;
-    border: 1px solid blue;
-    box-sizing: border-box;
-    position: relative;
-    top: 20%;
-    left: ;
-    padding: 10px;
-}
-.fullscreen__item {
-    position: absolute;
-    top: 12%;
-    left: 37%;
-    
-}
-.textbox {
-    width: 100px;
-    height: 100px;
-    border: 1px solid blue;
-    box-sizing: border-box;
-    position: absolute;
-    top: 20%;
-    left: ; 
-    padding: 10px;
-}
-.textbox--2 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid blue;
-    box-sizing: border-box;
-    position: absolute;
-    top: 40%;
-    right: 0% ;
-    padding: 10px;
-}
-*/

@@ -65,11 +65,6 @@ $('.textbox--no1A').on({
 })
 
 
-// $('.gif-show').hover(function(){
-//     console.log('test', $(this));
-//     $(this).css("opacity", "0");
-    
-// })
 
 
 })()

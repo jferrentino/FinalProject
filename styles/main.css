@@ -6,17 +6,18 @@
 }
 /* CURRENTLY IN: styles/main.css */
 
-.font {
-    font-family: "freight-sans-pro";
-    color: #5c3d2e;
 
-}
 
 .background {
     background-color: #f2f1e9;
     overflow-x: hidden;
+    width: 1024px;
+    height: 5688px;
+    margin: 0 auto;
+    position: relative;
+    font-family: "freight-sans-pro";
+    color: #5c3d2e;
 }
-
 
 .fullscreen__image--container {
     width: 1024px;
@@ -102,21 +103,34 @@
 }
 
 .textbox--2 {
+    width: 200px;
+    height: 80px;
+    border: 5px #f2cc00;
+    background-color: white;
+    position: absolute;
+    top: 65%;
+    left: 10px; 
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+/*.textbox--2 {
     width: 300px;
     height: 100px;
-    /*border: 1px solid blue;*/
     box-sizing: border-box;
     position: absolute;
     top: 65%;
     left: 10px; 
     padding: 10px;
     font-size: 25px;
-}
+} */
 
 .textbox--3 {
     width: 100px;
     height: 100px;
     border: 1px solid blue;
+    font-size: 10px;
     box-sizing: border-box;
     position: absolute;
     top: 220%;

@@ -270,9 +270,21 @@
     top: 2937px;
     opacity: 1;
     z-index: 5;
-    
 
 }
+
+.gif-show--doggie  {
+    position: absolute;
+    left: 563.4px;
+    top: 3920px;
+    opacity: 1;
+    z-index: 5;
+
+}
+
+
+
+/* BUILDING SECTIONS */
 
 .gif-show--buildingTop {
     position: absolute;

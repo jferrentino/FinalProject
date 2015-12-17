@@ -55,16 +55,31 @@ $('.textbox--no1A').on({
     mouseenter: function () {
         // $(this).css({background-color: black});
         $('.gif-show--elf').css("opacity", "1");
-        $(this).css("color", "red");
+        $(this).css("color", "#5c3d2e;");
 
     },
 
     mouseleave: function () {
         $('.gif-show--elf').css("opacity", "0");
-         $(this).css("color", "#5c3d2e");
+         $(this).css("color", "black");
 
     }
 });
+
+$('.textbox').on({
+    mouseenter: function () {
+        // $(this).css({background-color: black});
+        $(this).css("color", "#5c3d2e;");
+
+    },
+
+    mouseleave: function () {
+        $('.gif-show--elf').css("opacity", "0");
+         $(this).css("color", "black");
+
+    }
+});
+
 
 
 

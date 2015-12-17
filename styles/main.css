@@ -242,6 +242,7 @@
 }  */
 
 
+/* BULIDING ANIMATIONS */
 
 .gif-show--elf  {
     position: absolute;
@@ -273,9 +274,20 @@
 
 }
 
+.gif-show--buildingTop {
+    position: absolute;
+    left: 404.4px;
+    top: 2054px;
+    opacity: 1;
+    z-index: 5;
+
+    
+
+
+}
 /* STARS */
 
-.gif-show--star1  {
+.gif-show--star1{
     position: absolute;
     left: 283.4px;
     top: 753px;

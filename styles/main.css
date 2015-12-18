@@ -84,7 +84,7 @@
     top: 267px;
     left: 196px;
     width: 100%;
-    height: 100%;
+    height: 201px;;
     position: absolute;
     align-content: center;
 }
@@ -357,7 +357,7 @@
 }
 /* STARS */
 
-.gif-show--star1{
+/*.gif-show--star1{
     position: absolute;
     left: 283.4px;
     top: 753px;
@@ -382,18 +382,94 @@
     top: 958px;
     opacity: 1;
     z-index: 5;
-
+*/
 }
 
-.gif-show--star3A  {
+/*.gif-show--star3A  {
     position: absolute;
     left: 560.4px;
     top: 958px;
     opacity: 1;
     z-index: 5;
-    /*border: 2px solid black;*/
+    /*border: 2px solid black;
+
+}*/
+
+.gif-show--star4 {
+position: absolute;
+    left: 560.4px;
+    top: 958px;
+    opacity: 1;
+    z-index: 5;
 
 }
+
+
+.gif-show--star5 {
+position: absolute;
+    left: 183.4px;
+    top: 770px;
+    opacity: 1;
+    z-index: 5;
+
+}
+
+.gif-show--star6 {
+position: absolute;
+/*border: 2px solid blue;
+*/    left: 704.4px;
+    top: 94px;
+    opacity: 1;
+    z-index: 5;
+
+}
+
+.gif-show--star7 {
+position: absolute;
+/*border: 2px solid blue;*/
+    left: 67%;
+    top: 11%;
+    opacity: 1;
+    z-index: 5;
+
+}
+
+
+.gif-show--star8 {
+position: absolute;
+    left: 81%;
+    top: 20%;
+    opacity: 1;
+    z-index: 5;
+
+}
+
+.gif-show--star9 {
+position: absolute;
+     left: 49%;
+    top: 31%;
+    opacity: 1;
+    z-index: 5;
+}
+
+.gif-show--star10 {
+position: absolute;
+     left: 12%;
+    top: 7%;
+    opacity: 1;
+    z-index: 5;
+}
+
+/*.gif-show--star11 {
+position: absolute;
+border: 2px solid blue;
+     left: 22%;
+    top: 27%;
+    opacity: 1;
+    z-index: 5;
+}*/
+
+
 
 
 

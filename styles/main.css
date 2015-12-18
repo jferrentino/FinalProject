@@ -460,15 +460,48 @@ position: absolute;
     z-index: 5;
 }
 
-/*.gif-show--star11 {
+.gif-show--star11 {
 position: absolute;
-border: 2px solid blue;
-     left: 22%;
-    top: 27%;
+    /* border: 2px solid blue; */
+    left: 14%;
+    top: 10%;
     opacity: 1;
     z-index: 5;
-}*/
+}
 
+.gif-show--star12 {
+position: absolute;
+    /* border: 2px solid blue;*/
+    left: 87%;
+    top: 30%;
+    opacity: 1;
+    z-index: 5;
+}
+
+.gif-show--star13 {
+position: absolute;
+    left: 77%;
+    top: 37%;
+    opacity: 1;
+    z-index: 5;
+}
+
+.gif-show--star14 {
+position: absolute;
+/*border: 2px solid red;*/
+    left: 16%;
+    top: 25%;
+    opacity: 1;
+    z-index: 5;
+}
+
+.gif-show--star15 {
+position: absolute;
+    left: 26%;
+    top: 35%;
+    opacity: 1;
+    z-index: 5;
+}
 
 
 

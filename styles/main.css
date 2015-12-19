@@ -347,7 +347,6 @@ text-decoration: none;
 
 .gif-show--snake {
     position: absolute;
-    /*border: 2px solid red;*/
     left: 410.4px;
     top: 2504px;
     opacity: 1;
@@ -359,8 +358,8 @@ text-decoration: none;
 .gif-show--plant {
     position: absolute;
    /* border: 2px solid red;*/
-    left: 652.49px;
-    top: 67.2%;
+    left: 652px;
+    top: 3004px;
     opacity: 1;
     z-index: 5;
 
@@ -380,7 +379,7 @@ text-decoration: none;
     left: 392.4px;
     top: 2937px;
     opacity: 1;
-    z-index: 5;
+    z-index: 10;
 
 }
 
@@ -405,6 +404,25 @@ text-decoration: none;
 
 }
 
+.gif-show--buildingMidLights {
+    position: absolute;
+    left: 335.4px;
+    top: 2456px;
+    opacity: 1;
+    z-index: 5;
+
+}
+
+.gif-show--buildingBotLights {
+    position: absolute;
+    left: 301.4px;
+    top: 2846px;
+    opacity: 1;
+    z-index: 5;
+
+}
+
+
 /*.gif-show--guyWiggle {
     position: absolute;
     left: 377px;
@@ -412,7 +430,6 @@ text-decoration: none;
     opacity: 0;
     z-index: 5;
 }*/
-/
 .gif-show--guyWiggle {
     position: absolute;
     left: 377px;

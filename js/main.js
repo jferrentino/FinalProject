@@ -49,7 +49,7 @@ $('.myMenuLink').click(function () {
 //     }
 // });
 
-$('.gif-show--doggie').on({
+$('.gif-show--guyWiggle').on({
     mouseenter: function () {
 
         // $(this).css({background-color: black});

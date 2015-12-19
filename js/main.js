@@ -49,7 +49,7 @@ $('.myMenuLink').click(function () {
 //     }
 // });
 
-$('.gif-show--doggie').on({
+$('.gif-show--guyWiggle').on({
     mouseenter: function () {
 
         // $(this).css({background-color: black});
@@ -61,6 +61,21 @@ $('.gif-show--doggie').on({
          $(this).css("opacity", "0");
     }
  })
+
+
+$('.gif-show--snake').on({
+    mouseenter: function () {
+
+        // $(this).css({background-color: black});
+         $(this).css("opacity", "1");
+
+    },
+
+    mouseleave: function () {
+         $(this).css("opacity", "0");
+    }
+ })
+
 
 
 

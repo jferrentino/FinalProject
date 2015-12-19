@@ -27,7 +27,7 @@
 }*/
 .plainBottom {
 text-decoration: none;
-    color: orange;
+    color: #fcd600;
     left: 423px;
     top: 16px;
     background-color: #f2f1e9;
@@ -37,6 +37,10 @@ text-decoration: none;
     box-sizing: border-box;
     text-align: center;
     font-size: 20px;
+}
+
+.plainBottom:hover {
+    color: orange;
 }
 
 .background {
@@ -264,8 +268,8 @@ text-decoration: none;
     background-color: #fcd600;
     opacity: .8;
     position: absolute;
-    top: 70%;
-    left: 76%;
+    top: 46%;
+    left: 8%;
     padding: 20px;
     font-style: italic;
     font-size: 20px;
@@ -297,7 +301,7 @@ text-decoration: none;
     width: 200px;
     border-radius: 12px;
     height: 50px;
-    border: 5px #f2cc00;
+    border: 5px solid #f2cc00;
     background-color: #fcd600;
     opacity: .8;
     position: absolute;
@@ -308,19 +312,35 @@ text-decoration: none;
     font-size: 20px;
     z-index: 10;
     /* box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27); */
-
 }
 
- .tBox-7 {
+
+.textbox-6 {
     width: 200px;
+    /*height: 50px;*/
+   /* border: 5px solid #f2cc00;  */
+    background-color: #fcd600;
+    border-radius: 12px;
+    opacity: 0.8;
+    position: absolute;
+       top: 28%;
+    left: 64%;
+    padding: 20px;  
+    font-size: 20px;
+    font-style: italic; 
+    z-index: 10; 
+}
+
+.textbox-7 {
+    width: 212px;
     border-radius: 12px;
     height: 50px;
-    border: 5px #f2cc00;
+  /*  border: 5px solid #f2cc00;*/
     background-color: #fcd600;
     opacity: .8;
     position: absolute;
     top: 20%;
-    left: 30%;
+    left: 20%;
     padding: 20px;
     font-style: italic;
     font-size: 20px;
@@ -330,8 +350,28 @@ text-decoration: none;
 }
 
 
+.textbox-second {
+    width: 212px;
+    border-radius: 12px;
+    height: 50px;
+  /*  border: 5px solid #f2cc00;*/
+    background-color: #fcd600;
+    opacity: .8;
+    position: absolute;
+    top: 84%;
+    left: 20%;
+    padding: 20px;
+    font-style: italic;
+    font-size: 20px;
+    z-index: 10;
+    /* box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27); */
 
+}
 
+/*.textbox-7 {
+    border: 1px solid black;
+}
+*/
 
 
 /*.textbox--2 {
@@ -688,7 +728,7 @@ position: absolute;
 
 .mobileTextbox {
     width: 100px;
-    background-color: white;
+    background-color: purple;
     display: none;
     margin: 0 auto;
     position: absolute;
@@ -703,7 +743,6 @@ position: absolute;
 
 .mobile__image--container {
     display: none;
-
 }
 
 
@@ -726,16 +765,22 @@ position: absolute;
     }
 
     .mobile__image--container {
-        display: block;
+    display: block;
     margin: 0 auto;
     position: relative;
-    background: url('../assets/iphoneBG1.png') no-repeat;
-    margin: 0 auto;
+    background: url('../assets/mobileBG2.png') center center no-repeat;
+    /*margin: 0 auto;*/
     width: 100%;
     height: 100%;
     }
 
-    .mobileTexbox {
-        display: inline;
+    .mobileTextbox {
+        display: inline-block;
     }
 }
+
+/*
+ background: url('../assets/iphoneBG1.png') no-repeat fixed center;*/
+
+
+

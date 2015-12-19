@@ -350,7 +350,7 @@ text-decoration: none;
     /*border: 2px solid red;*/
     left: 410.4px;
     top: 2504px;
-    opacity: 0;
+    opacity: 1;
     z-index: 5;      
 
 }
@@ -417,7 +417,7 @@ text-decoration: none;
     position: absolute;
     left: 377px;
     top: 2237px;
-    opacity: 0;
+    opacity: 1;
     z-index: 5;
 }
 

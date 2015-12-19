@@ -49,32 +49,32 @@ $('.myMenuLink').click(function () {
 //     }
 // });
 
-// $('.gif-show--guyWiggle').on({
-//     mouseenter: function () {
+$('.gif-show--guyWiggle').on({
+    mouseenter: function () {
 
-//         // $(this).css({background-color: black});
-//          $(this).css("opacity", "1");
+        // $(this).css({background-color: black});
+         $(this).css("opacity", "1");
 
-//     },
+    },
 
-//     mouseleave: function () {
-//          $(this).css("opacity", "0");
-//     }
-//  })
+    mouseleave: function () {
+         $(this).css("opacity", "0");
+    }
+ })
 
 
-// $('.gif-show--snake').on({
-//     mouseenter: function () {
+$('.gif-show--snake').on({
+    mouseenter: function () {
 
-//         // $(this).css({background-color: black});
-//          $(this).css("opacity", "1");
+        // $(this).css({background-color: black});
+         $(this).css("opacity", "1");
 
-//     },
+    },
 
-//     mouseleave: function () {
-//          $(this).css("opacity", "0");
-//     }
-//  })
+    mouseleave: function () {
+         $(this).css("opacity", "0");
+    }
+ })
 
 
 

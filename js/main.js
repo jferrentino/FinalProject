@@ -23,16 +23,17 @@ window.scrollTo(0,document.body.scrollHeight);
 
 
 $('.myLinkToBot').click(function () {
+    console.log("click");
     $('html, body').animate({
-        scrollBottom: $(document).height()
-    }, 'slow');
+        scrollTop: $(document).height()
+    }, 1000);
     return false;
 });
 
 $('.myMenuLink').click(function () {
     $('html, body').animate({
         scrollBottom:0
-    }, 'slow');
+    }, '10000');
     return false;
 });
 

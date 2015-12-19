@@ -45,7 +45,7 @@ text-decoration: none;
 
 .background {
     background-color: #f2f1e9;
-    overflow-x: hidden;
+     overflow-x: hidden;
     position: relative;
     font-family: "freight-sans-pro";
     /*color: #5c3d2e; */
@@ -726,9 +726,26 @@ position: absolute;
     z-index: 5;
 }
 
+/* width: 200px;
+    border-radius: 12px;
+    height: 50px;
+    border: 5px #f2cc00;
+    background-color: #fcd600;
+    opacity: .8;
+    position: absolute;
+    top: 46%;
+    left: 8%;
+    padding: 20px;
+    font-style: italic;
+    font-size: 20px;
+    z-index: 10;*/
+
 .mobileTextbox {
     width: 100px;
-    background-color: purple;
+    background-color: #fcd600;
+    border-radius: 12px;
+    font-size: 20px
+    text-align: center;
     display: none;
     margin: 0 auto;
     position: absolute;

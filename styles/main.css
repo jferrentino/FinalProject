@@ -96,6 +96,25 @@ text-decoration: none;
     border-radius: 25px;
     box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27); */
 
+
+/*HYPOTHETICAL TEXT BOX
+.textbox--3 {
+    width: 200px;
+    border-radius: 12px;
+    height: 42px;
+    border: 5px #f2cc00;
+    background-color: #fcd600;
+    opacity: .8;
+    position: absolute;
+    top: 59%;
+    left: 76%;
+    padding: 20px;
+    font-style: italic;
+    font-size: 20px;
+    z-index: 10;
+    /* box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27); */
+
+
 .titleGif {
     top: 267px;
     left: 196px;
@@ -329,9 +348,9 @@ text-decoration: none;
 .gif-show--snake {
     position: absolute;
     /*border: 2px solid red;*/
-    left: 410px;
-    top: 2503px;
-    opacity: 1;
+    left: 410.4px;
+    top: 2504px;
+    opacity: 0;
     z-index: 5;      
 
 }
@@ -369,7 +388,7 @@ text-decoration: none;
     position: absolute;
     left: 574px;
     top: 3925px;
-    opacity: 0;
+    opacity: 1;
     z-index: 5;
 
 }

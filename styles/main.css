@@ -28,7 +28,8 @@
 .plainBottom {
 text-decoration: none;
     color: #fcd600;
-    left: 423px;
+   /* left: 423px;*/
+   left: 406px;
     top: 16px;
     background-color: #f2f1e9;
     /* height: 100px; */

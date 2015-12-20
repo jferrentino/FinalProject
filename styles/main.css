@@ -25,6 +25,23 @@
 
 
 }*/
+
+.credit {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 10px;
+    text-decoration: none;
+    color: #fcd600;
+    z-index: 15;
+
+}
+
+.credit:hover {
+    color: orange;
+}
+
+
 .plainBottom {
 text-decoration: none;
     color: #fcd600;
@@ -803,6 +820,7 @@ position: absolute;
 
 /*
  background: url('../assets/iphoneBG1.png') no-repeat fixed center;*/
+
 
 
 .mobile__image--container {

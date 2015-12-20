@@ -25,7 +25,7 @@ window.scrollTo(0,document.body.scrollHeight);
 $('.myLinkToBot').click(function () {
     console.log("click");
     $('html, body').animate({
-        scrollTop: $(document).height()
+        scrollTops: $(document).height()
     }, 1000);
     return false;
 });

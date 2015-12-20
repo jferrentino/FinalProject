@@ -821,7 +821,7 @@ position: absolute;
         /*background: url('../assets/mobileBG2.png') center center no-repeat;*/
         /*margin: 0 auto;*/
         /*background: url('../assets/mobileBG2.png') center center no-repeat;*/
-        background: url('../assets/doggiev5.gif') center center;
+        background: url('../assets/mobile3.png') center center;
       /*  border: 2px solid yellow;*/
         height: 100%;
         width: 100%;
@@ -857,7 +857,8 @@ position: absolute;
 */
 
  .mobileTextBox {
-        background-color: rgba(255,255,255,0.7);
+      /*  background-color: rgba(0,0,0,0.5);*/
+        background-color: rgba(242, 241, 233,0.9);
         flex: 1 1 auto;
         align-self: stretch;
         display: flex;
@@ -877,7 +878,7 @@ position: absolute;
         margin: 0 auto;
         /*border: 0.5em #fcd600;
 */        padding: 1em;
-        font-style: italic;
+        /*font-style: italic;*/
         font-size: 20px;
         width: 50%;
         border-radius: 12px;

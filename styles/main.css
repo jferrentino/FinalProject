@@ -1,12 +1,9 @@
 @import 'fontface.css';
 
-
 /*div:hover {
     color: red;
 }
 /* CURRENTLY IN: styles/main.css */
-
-
 
 
 /*.plainBottom {
@@ -25,8 +22,9 @@
 
 
 }*/
+
 .plainBottom {
-text-decoration: none;
+    text-decoration: none;
     color: #fcd600;
     left: 423px;
     top: 16px;
@@ -45,11 +43,11 @@ text-decoration: none;
 
 .background {
     background-color: #f2f1e9;
-     overflow-x: hidden;
+    overflow-x: hidden;
     position: relative;
     font-family: "freight-sans-pro";
     /*color: #5c3d2e; */
-    color: black;  
+    color: black;
 }
 
 .fullscreen__image--container {
@@ -60,9 +58,7 @@ text-decoration: none;
     margin: 0 auto;
     width: 1024px;
     height: 4446px;
-
     /*background-color: #f2f1e9 */
-
 }
 
 .fullscreen__image--building {
@@ -70,6 +66,7 @@ text-decoration: none;
     /*border: 1px solid black; */
     background-image: url("https://dl.dropboxusercontent.com./s/8eafwqbw0ku5fcx/ImgFix1B.png?dl=0") no-repeat center center fixed;
 }
+
 
 /*.textbox--no1 {
  width: 400px;
@@ -84,6 +81,7 @@ text-decoration: none;
 
 }
 */
+
 
 /*.textbox--no1A {
     width: 263px;
@@ -118,16 +116,15 @@ text-decoration: none;
     z-index: 10;
     /* box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27); */
 
-
 .titleGif {
     top: 267px;
     left: 196px;
     width: 100%;
-    height: 201px;;
+    height: 201px;
+    ;
     position: absolute;
     align-content: center;
 }
-
 
 .textbox--no1A {
     width: 214px;
@@ -140,13 +137,12 @@ text-decoration: none;
     top: 94%;
     left: 44%;
     padding: 20px;
-    font-style:  italic;
+    font-style: italic;
     /*font-weight: medium;*/
     font-size: 20px;
     z-index: 10;
-   
-
 }
+
 
 /*.textbox--no1A {
     width: 100%;
@@ -162,6 +158,7 @@ text-decoration: none;
     border-radius: 25px;
 
 } */
+
 
 /*.textbox--no2 {
  width: 400px;
@@ -193,6 +190,7 @@ text-decoration: none;
 
 }
 */
+
 /*. OLD -- textbox--2 {
     width: 200px;
     border-radius: 25px;
@@ -206,12 +204,12 @@ text-decoration: none;
     font-size: 20px;
     box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27);
 }*/
-
 .tBox--2 {
     width: 200px;
     border-radius: 12px;
     height: 50px;
-   /* border: 2px solid red;*/
+    /* border: 2px solid red;*/
+    
     background-color: #fcd600;
     opacity: .8;
     position: absolute;
@@ -222,11 +220,8 @@ text-decoration: none;
     font-size: 20px;
     z-index: 10;
 }
-
-
-
 .textbox--3 {
-   width: 200px;
+    width: 200px;
     border-radius: 12px;
     height: 25px;
     border: 5px #f2cc00;
@@ -242,7 +237,7 @@ text-decoration: none;
     z-index: 10;
     z-index: 10;
 }
-    .textbox--4 {
+.textbox--4 {
     width: 200px;
     border-radius: 12px;
     height: 50px;
@@ -257,10 +252,8 @@ text-decoration: none;
     font-size: 20px;
     z-index: 10;
     /* box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27); */
-
 }
-
-  .textbox--5 {
+.textbox--5 {
     width: 200px;
     border-radius: 12px;
     height: 50px;
@@ -275,11 +268,8 @@ text-decoration: none;
     font-size: 20px;
     z-index: 10;
     /* box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27); */
-
 }
-
-
-  .textbox--6 {
+.textbox--6 {
     width: 200px;
     border-radius: 12px;
     height: 50px;
@@ -294,10 +284,8 @@ text-decoration: none;
     font-size: 20px;
     z-index: 10;
     /* box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27); */
-
 }
-
-  .tBox--6 {
+.tBox--6 {
     width: 200px;
     border-radius: 12px;
     height: 50px;
@@ -313,29 +301,28 @@ text-decoration: none;
     z-index: 10;
     /* box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27); */
 }
-
-
 .textbox-6 {
     width: 200px;
     /*height: 50px;*/
-   /* border: 5px solid #f2cc00;  */
+    /* border: 5px solid #f2cc00;  */
+    
     background-color: #fcd600;
     border-radius: 12px;
     opacity: 0.8;
     position: absolute;
-       top: 28%;
+    top: 28%;
     left: 64%;
-    padding: 20px;  
+    padding: 20px;
     font-size: 20px;
-    font-style: italic; 
-    z-index: 10; 
+    font-style: italic;
+    z-index: 10;
 }
-
 .textbox-7 {
     width: 212px;
     border-radius: 12px;
     height: 50px;
-  /*  border: 5px solid #f2cc00;*/
+    /*  border: 5px solid #f2cc00;*/
+    
     background-color: #fcd600;
     opacity: .8;
     position: absolute;
@@ -346,15 +333,13 @@ text-decoration: none;
     font-size: 20px;
     z-index: 10;
     /* box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27); */
-
 }
-
-
 .textbox-second {
     width: 212px;
     border-radius: 12px;
     height: 50px;
-  /*  border: 5px solid #f2cc00;*/
+    /*  border: 5px solid #f2cc00;*/
+    
     background-color: #fcd600;
     opacity: .8;
     position: absolute;
@@ -365,14 +350,12 @@ text-decoration: none;
     font-size: 20px;
     z-index: 10;
     /* box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27); */
-
 }
 
 /*.textbox-7 {
     border: 1px solid black;
 }
 */
-
 
 /*.textbox--2 {
     width: 300px;
@@ -407,21 +390,20 @@ text-decoration: none;
     left: 60px; 
     padding: 10px;
 }*/
-
 .textbox__topMessage {
     width: 500px;
     height: 200px;
     /*border: 1px solid blue;*/
+    
     text-align: center;
     box-sizing: border-box;
     position: absolute;
     top: 200px;
-    left: 275px; 
+    left: 275px;
     padding: 30px;
-    font-size: 80px; 
+    font-size: 80px;
     font-style: italic;
 }
-
 .textbox__scrollToBottom {
     width: 275px;
     height: 50px;
@@ -429,19 +411,15 @@ text-decoration: none;
     box-sizing: border-box;
     position: absolute;
     top: 0;
-    left: 400px; 
+    left: 400px;
     padding: 30px, 30px, 30px, 30px;
     text-align: justify;
     font-size: 15px;
 }
-
 .gifContainer1 {
     width: 100%;
     position: absolute;
-
 }
-
-
 
 /*First attempt .gif-show  {
     position: absolute;
@@ -450,16 +428,13 @@ text-decoration: none;
     height: 200px;
 }  */
 
-
 /* BULIDING ANIMATIONS */
-
-.gif-show--elf  {
+.gif-show--elf {
     position: absolute;
     left: 277.7px;
     top: 3930px;
     opacity: 1;
     z-index: 5;
-
 }
 
 /*.gif-show--elf  {
@@ -472,95 +447,76 @@ text-decoration: none;
     z-index: 5;
     
 }*/
-
-
-
 .gif-show--snake {
     position: absolute;
     left: 410.4px;
     top: 2504px;
     opacity: 1;
-    z-index: 5;      
-
+    z-index: 5;
 }
-
-
 .gif-show--plant {
     position: absolute;
-   /* border: 2px solid red;*/
+    /* border: 2px solid red;*/
+    
     left: 652px;
     top: 3004px;
     opacity: 1;
     z-index: 5;
-
 }
-
-.gif-show--girlHat  {
+.gif-show--girlHat {
     position: absolute;
     left: 265.4px;
     top: 3294px;
     opacity: 1;
     z-index: 5;
-    
 }
-
-.gif-show--manDrawing  {
+.gif-show--manDrawing {
     position: absolute;
     left: 391.4px;
     top: 2936px;
     opacity: 1;
     z-index: 10;
-
 }
-
-.gif-show--doggie  {
+.gif-show--doggie {
     position: absolute;
     left: 574px;
     top: 3925px;
     opacity: 1;
     z-index: 5;
-
 }
-
-.gif-show--music  {
+.gif-show--music {
     position: absolute;
-   /* border: 2px solid red;*/
-        /* border: 2px solid red; */
+    /* border: 2px solid red;*/
+    /* border: 2px solid red; */
+    
     left: 298px;
     top: 2508px;
     opacity: 1;
     z-index: 10;
-
 }
-/* BUILDING SECTIONS */
 
+/* BUILDING SECTIONS */
 .gif-show--buildingTop {
     position: absolute;
     left: 404.4px;
     top: 2054px;
     opacity: 1;
     z-index: 5;
-
 }
-
 .gif-show--buildingMidLights {
     position: absolute;
     left: 335.4px;
     top: 2456px;
     opacity: 1;
     z-index: 5;
-
 }
-
 .gif-show--buildingBotLights {
     position: absolute;
     left: 301.4px;
     top: 2846px;
     opacity: 1;
     z-index: 5;
-
 }
-
 
 /*.gif-show--guyWiggle {
     position: absolute;
@@ -576,7 +532,6 @@ text-decoration: none;
     opacity: 1;
     z-index: 5;
 }
-
 
 /* STARS 
 
@@ -607,7 +562,6 @@ text-decoration: none;
     z-index: 5;
 */
 
-
 /*.gif-show--star3A  {
     position: absolute;
     left: 560.4px;
@@ -617,109 +571,96 @@ text-decoration: none;
     /*border: 2px solid black;
 
 }*/
-
 .gif-show--star4 {
-position: absolute;
+    position: absolute;
     left: 560.4px;
     top: 958px;
     opacity: 1;
     z-index: 5;
-
 }
-
-
 .gif-show--star5 {
-position: absolute;
+    position: absolute;
     left: 183.4px;
     top: 770px;
     opacity: 1;
     z-index: 5;
-
 }
-
 .gif-show--star6 {
-position: absolute;
-/*border: 2px solid blue;
-*/    left: 704.4px;
+    position: absolute;
+    /*border: 2px solid blue;
+*/
+    
+    left: 704.4px;
     top: 94px;
     opacity: 1;
     z-index: 5;
-
 }
-
 .gif-show--star7 {
-position: absolute;
-/*border: 2px solid blue;*/
+    position: absolute;
+    /*border: 2px solid blue;*/
+    
     left: 67%;
     top: 11%;
     opacity: 1;
     z-index: 5;
-
 }
-
-
 .gif-show--star8 {
-position: absolute;
+    position: absolute;
     left: 81%;
     top: 20%;
     opacity: 1;
     z-index: 5;
-
 }
-
 .gif-show--star9 {
-position: absolute;
-     left: 49%;
+    position: absolute;
+    left: 49%;
     top: 31%;
     opacity: 1;
     z-index: 5;
 }
-
 .gif-show--star10 {
-position: absolute;
-     left: 12%;
+    position: absolute;
+    left: 12%;
     top: 7%;
     opacity: 1;
     z-index: 5;
 }
-
 .gif-show--star11 {
-position: absolute;
+    position: absolute;
     /* border: 2px solid blue; */
+    
     left: 14%;
     top: 10%;
     opacity: 1;
     z-index: 5;
 }
-
 .gif-show--star12 {
-position: absolute;
+    position: absolute;
     /* border: 2px solid blue;*/
+    
     left: 87%;
     top: 30%;
     opacity: 1;
     z-index: 5;
 }
-
 .gif-show--star13 {
-position: absolute;
+    position: absolute;
     left: 77%;
     top: 37%;
     opacity: 1;
     z-index: 5;
 }
-
 .gif-show--star14 {
-position: absolute;
-/*border: 2px solid red;*/
+    position: absolute;
+    /*border: 2px solid red;*/
+    
     left: 16%;
     top: 25%;
     opacity: 1;
     z-index: 5;
 }
-
 .gif-show--star15 {
-position: absolute;
+    position: absolute;
     left: 26%;
     top: 35%;
     opacity: 1;
@@ -739,30 +680,21 @@ position: absolute;
     font-style: italic;
     font-size: 20px;
     z-index: 10;*/
-
-.mobileTextbox {
+/*.mobileTextbox {
     width: 100px;
     background-color: #fcd600;
     border-radius: 12px;
-    font-size: 20px
-    text-align: center;
+    font-size: 20px text-align: center;
     display: none;
     margin: 0 auto;
     position: absolute;
     margin: 0 auto;
     width: 200px;
     height: 200px;
-
 }
-
-
-
-
 .mobile__image--container {
     display: none;
-}
-
-
+}*/
 
 /*.mobile__image--container {
     display: none;
@@ -775,29 +707,57 @@ position: absolute;
 
 }
 */
-
 @media screen and (max-width: 736px) {
     .fullscreen__image--container {
-     display: none
+        display: none
     }
+    
 
     .mobile__image--container {
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    background: url('../assets/mobileBG2.png') center center no-repeat;
-    /*margin: 0 auto;*/
-    width: 100%;
-    height: 100%;
-    }
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column;
+        jusitfy-content: center;
+        /*background: url('../assets/mobileBG2.png') center center no-repeat;*/
+        /*margin: 0 auto;*/
+        /*background: url('../assets/mobileBG2.png') center center no-repeat;*/
+        background: url('../assets/doggiev5.gif') center center;
+        border: 2px solid yellow;
+        height: 100%;
+        width: 100%;
 
-    .mobileTextbox {
-        display: inline-block;
+        
     }
+    /* need two child containers to make it perfectly center
+    on both the vertical and horizontal axis
+    */
+   
+    .mobileTextBox {
+        background-color: rgba(255,255,255,0.7);
+        flex: 1 1 auto;
+        align-self: stretch;
+        display: flex;
+        flex-direction: row;
+        border: 0.5em solid green;
+        padding: 1em;
+        /*background: url('../assets/dog') center center no-repeat;*/
+    }
+    
+    .mobileTextbox__content {
+        background-color: rgba(255,255,255,0.9);
+        align-self: center;
+        jusitfy-content: center;
+        margin: 0 auto;
+        border: 0.5em solid white;
+        padding: 1em;
+    }
+    
+    
+    
+    /*.mobileTextbox {
+        display: inline-block;
+    }*/ 
 }
 
 /*
  background: url('../assets/iphoneBG1.png') no-repeat fixed center;*/
-
-
-

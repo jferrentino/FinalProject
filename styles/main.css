@@ -437,16 +437,6 @@
     z-index: 5;
 }
 
-/*.gif-show--elf  {
-    position: absolute;
-    left: 277.7px;
-    top: 3930px;
-    background-image: url('');
-    border: 2px solid red;
-    opacity: 0;
-    z-index: 5;
-    
-}*/
 .gif-show--snake {
     position: absolute;
     left: 410.4px;
@@ -518,13 +508,7 @@
     z-index: 5;
 }
 
-/*.gif-show--guyWiggle {
-    position: absolute;
-    left: 377px;
-    top: 2237px;
-    opacity: 0;
-    z-index: 5;
-}*/
+
 .gif-show--guyWiggle {
     position: absolute;
     left: 377px;
@@ -533,44 +517,6 @@
     z-index: 5;
 }
 
-/* STARS 
-
-/*.gif-show--star1{
-    position: absolute;
-    left: 283.4px;
-    top: 753px;
-    opacity: 1;
-    z-index: 5;
-
-}
-
-.gif-show--star2  {
-    position: absolute;
-    left: 700.4px;
-    top: 86px;
-    opacity: 1;
-    z-index: 5;
-
-
-}
-
-.gif-show--star3  {
-    position: absolute;
-    left: 560.4px;
-    top: 958px;
-    opacity: 1;
-    z-index: 5;
-*/
-
-/*.gif-show--star3A  {
-    position: absolute;
-    left: 560.4px;
-    top: 958px;
-    opacity: 1;
-    z-index: 5;
-    /*border: 2px solid black;
-
-}*/
 .gif-show--star4 {
     position: absolute;
     left: 560.4px;
@@ -587,8 +533,7 @@
 }
 .gif-show--star6 {
     position: absolute;
-    /*border: 2px solid blue;
-*/
+   
     
     left: 704.4px;
     top: 94px;
@@ -597,7 +542,7 @@
 }
 .gif-show--star7 {
     position: absolute;
-    /*border: 2px solid blue;*/
+   
     
     left: 67%;
     top: 11%;
@@ -627,7 +572,7 @@
 }
 .gif-show--star11 {
     position: absolute;
-    /* border: 2px solid blue; */
+   
     
     left: 14%;
     top: 10%;
@@ -636,7 +581,7 @@
 }
 .gif-show--star12 {
     position: absolute;
-    /* border: 2px solid blue;*/
+   
     
     left: 87%;
     top: 30%;
@@ -652,7 +597,7 @@
 }
 .gif-show--star14 {
     position: absolute;
-    /*border: 2px solid red;*/
+   
     
     left: 16%;
     top: 25%;
@@ -667,46 +612,6 @@
     z-index: 5;
 }
 
-/* width: 200px;
-    border-radius: 12px;
-    height: 50px;
-    border: 5px #f2cc00;
-    background-color: #fcd600;
-    opacity: .8;
-    position: absolute;
-    top: 46%;
-    left: 8%;
-    padding: 20px;
-    font-style: italic;
-    font-size: 20px;
-    z-index: 10;*/
-/*.mobileTextbox {
-    width: 100px;
-    background-color: #fcd600;
-    border-radius: 12px;
-    font-size: 20px text-align: center;
-    display: none;
-    margin: 0 auto;
-    position: absolute;
-    margin: 0 auto;
-    width: 200px;
-    height: 200px;
-}
-.mobile__image--container {
-    display: none;
-}*/
-
-/*.mobile__image--container {
-    display: none;
-    margin: 0 auto;
-    position: relative;
-    background: url('../assets/iphoneBG1.png') no-repeat;
-    margin: 0 auto;
-    width: 1024px;
-    height: 4446px;
-
-}
-*/
 @media screen and (max-width: 736px) {
     .fullscreen__image--container {
         display: none
@@ -740,7 +645,7 @@
         flex-direction: row;
         border: 0.5em solid green;
         padding: 1em;
-        /*background: url('../assets/dog') center center no-repeat;*/
+        
     }
     
     .mobileTextbox__content {
@@ -751,13 +656,13 @@
         border: 0.5em solid white;
         padding: 1em;
     }
-    
-    
-    
-    /*.mobileTextbox {
-        display: inline-block;
-    }*/ 
 }
 
-/*
- background: url('../assets/iphoneBG1.png') no-repeat fixed center;*/
+@media screen and (min-width: 736px) {
+    .mobile__image--container {
+        display: none
+    }
+}
+
+
+

@@ -1,38 +1,15 @@
 @import 'fontface.css';
 
 
-/*div:hover {
-    color: red;
-}
-/* CURRENTLY IN: styles/main.css */
-
-
-
-
-/*.plainBottom {
-    text-decoration: none;
-    color: #fcd600;
-    left: 492px;
-    top: 23px;
-    background-color: #f2f1e9;
-    height: 100px;
-   padding: 10px;
-    position: absolute;
-    box-sizing: border-box;
-    text-align: center;
-    hover: color; red;
-    font-style: bold;
-
-
-}*/
 
 .credit {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    font-size: 10px;
+    font-size: 12px;
     text-decoration: none;
-    color: #fcd600;
+    /*color: #fcd600;*/
+    color: #ffbb03;
     z-index: 15;
 
 }
@@ -86,55 +63,9 @@ text-decoration: none;
 .fullscreen__image--building {
     width: 100%;
     /*border: 1px solid black; */
-    background-image: url("https://dl.dropboxusercontent.com./s/8eafwqbw0ku5fcx/ImgFix1B.png?dl=0") no-repeat center center fixed;
+    background-image: url('../assets/FinalImageResized_2.png') no-repeat center center fixed;
 }
 
-/*.textbox--no1 {
- width: 400px;
-    height: 100px;
-    border: 1px solid blue;
-    box-sizing: border-box;
-    position: absolute;
-    top: 92%;
-    left: 400px; 
-    padding: 10px;
-    font-size: 30px
-
-}
-*/
-
-/*.textbox--no1A {
-    width: 263px;
-    height: 64px;
-    /* border: 1px solid blue; 
-    box-sizing: border-box;
-    position: relative;
-    top: 94%;
-    left: 432px;
-    padding: 20px;
-    font-size: 20px;
-    text-align: center;
-    background-color: #fcd600;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27); */
-
-
-/*HYPOTHETICAL TEXT BOX
-.textbox--3 {
-    width: 200px;
-    border-radius: 12px;
-    height: 42px;
-    border: 5px #f2cc00;
-    background-color: #fcd600;
-    opacity: .8;
-    position: absolute;
-    top: 59%;
-    left: 76%;
-    padding: 20px;
-    font-style: italic;
-    font-size: 20px;
-    z-index: 10;
-    /* box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27); */
 
 
 .titleGif {
@@ -166,64 +97,7 @@ text-decoration: none;
 
 }
 
-/*.textbox--no1A {
-    width: 100%;
-    height: 100px;
-    border: 1px solid blue;
-    box-sizing: border-box;
-    position: absolute;
-    top: 82%;
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-    background-color: #fcd600;
-    border-radius: 25px;
 
-} */
-
-/*.textbox--no2 {
- width: 400px;
-    height: 100px;
-
-    box-sizing: border-box;
-    position: absolute;
-    top: 50%;
-    left: 440px; 
-    padding: 10px;
-    font-size: 30px;
-
-}*/
-
-
-}
-
-/*
-.textbox {
-    width: 100px;
-    height: 100px;
-    box-sizing: border-box;
-    position: absolute;
-    top: 60%;
-    left: 150px; 
-    padding: 10px;
-    box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27);
-
-
-}
-*/
-/*. OLD -- textbox--2 {
-    width: 200px;
-    border-radius: 25px;
-    height: 80px;
-    border: 5px #f2cc00;
-    background-color: #fcd600;;
-    position: absolute;
-    top: 65%;
-    left: 1%; 
-    padding: 20px;
-    font-size: 20px;
-    box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.27);
-}*/
 
 .tBox--2 {
     width: 200px;
@@ -386,45 +260,7 @@ text-decoration: none;
 
 }
 
-/*.textbox-7 {
-    border: 1px solid black;
-}
-*/
 
-
-/*.textbox--2 {
-    width: 300px;
-    height: 100px;
-    box-sizing: border-box;
-    position: absolute;
-    top: 65%;
-    left: 10px; 
-    padding: 10px;
-    font-size: 25px;
-} */
-
-/*.textbox--3 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid blue;
-    font-size: 10px;
-    box-sizing: border-box;
-    position: absolute;
-    top: 220%;
-    left: 60px; 
-    padding: 10px;
-}*/
-
-/*.textbox--bottom {
-    width: 100px;
-    height: 100px;
-    border: 1px solid blue;
-    box-sizing: border-box;
-    position: absolute;
-    top: 20%;
-    left: 60px; 
-    padding: 10px;
-}*/
 
 .textbox__topMessage {
     width: 500px;
@@ -461,15 +297,7 @@ text-decoration: none;
 
 
 
-/*First attempt .gif-show  {
-    position: absolute;
-    opacity: 0;
-    border: 2px solid blue;
-    height: 200px;
-}  */
 
-
-/* BULIDING ANIMATIONS */
 
 .gif-show--elf  {
     position: absolute;
@@ -480,16 +308,6 @@ text-decoration: none;
 
 }
 
-/*.gif-show--elf  {
-    position: absolute;
-    left: 277.7px;
-    top: 3930px;
-    background-image: url('');
-    border: 2px solid red;
-    opacity: 0;
-    z-index: 5;
-    
-}*/
 
 
 
@@ -528,6 +346,16 @@ text-decoration: none;
     top: 2936px;
     opacity: 1;
     z-index: 10;
+
+}
+
+
+.gif-show--snowAngel {
+    position: absolute;
+    left: 389px;
+    top: 3384px;
+    opacity: 1;
+    z-index: 5;
 
 }
 

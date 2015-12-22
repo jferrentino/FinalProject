@@ -1,6 +1,20 @@
 @import 'fontface.css';
 
 
+.scrollUp {
+    text-decoration: none;
+    color: orange;
+    left: 480px;
+    top: 4379px;
+    height: 100px;
+    position: absolute;
+    font-size: 20px;
+}
+
+/*.scrollUp:hover {
+    color: #fcd600;
+
+}*/
 
 .credit {
     position: fixed;
@@ -132,7 +146,7 @@ text-decoration: none;
     font-style: bold italic;
     font-size: 20px;
     z-index: 10;
-    z-index: 10;
+
 }
     .textbox--4 {
     width: 200px;
@@ -288,6 +302,7 @@ text-decoration: none;
     text-align: justify;
     font-size: 15px;
 }
+
 
 .gifContainer1 {
     width: 100%;

@@ -3,7 +3,7 @@
 
 .scrollUp {
     text-decoration: none;
-    color: orange;
+    color: #4c2817;
     left: 480px;
     top: 4379px;
     height: 100px;
@@ -93,7 +93,7 @@ text-decoration: none;
 
 
 .textbox--no1A {
-    width: 214px;
+    width: 140px;
     border-radius: 12px;
     height: 28px;
     border: 5px #f2cc00;
@@ -101,7 +101,7 @@ text-decoration: none;
     opacity: .8;
     position: absolute;
     top: 94%;
-    left: 44%;
+    left: 48%;
     padding: 20px;
     font-style:  italic;
     /*font-weight: medium;*/
